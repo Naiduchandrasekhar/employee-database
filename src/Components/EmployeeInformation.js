@@ -4,7 +4,7 @@ const EmployeeInformation = ({empData}) => {
     <div>
       {empData?.map(e => {
         return(
-          <div className="border-2 m-2 bg-lime-200">
+          <div className="border-2 m-2 bg-lime-200 flex justify-around items-center">
             <p>{e.firstName}</p>
             <p>{e.date}</p>
             <p>{e.email}</p>

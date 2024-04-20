@@ -7,7 +7,7 @@ const EmployeeList = ({empData, onDelete}) => {
         <div>
           {empData.map((emp) => {
             return (
-              <div key={emp.id} className="flex justify-center items-center bg-lime-200 m-2 p-2 ">
+              <div key={emp.id} className="flex justify-center items-center bg-lime-200 m-1 p-1 text-base">
               <h1>{emp.firstName}</h1>
               <span className="ml-2 cursor-pointer" onClick={() => onDelete(emp.id)}>❌</span>
             </div>  
