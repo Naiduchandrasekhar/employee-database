@@ -19,6 +19,7 @@ function App() {
     e.preventDefault();
     setEmpData([...empData, obj])
     setObj({id: "",  firstName: "", lastName: "", email: "", phone: "", date: "" });
+    setModal(false)
   };
 
   const handleChange = (e) => {
